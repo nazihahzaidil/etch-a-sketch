@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    height: 100vh;
+    margin: 0;
+    gap: 2%;
+
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+.resetButton {
+    align-items: center;
+    border: 2px solid black;
+    padding: 0.5rem 0.5rem;
+    border-radius: 5px;
+}
+
+#grid {
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    height: 265px;
+    width: 265px;
+
+}
+
+.grid-item {
+    width: 16px;
+    height: 16px;
+    background-color: white;
+    border: 1px solid #ddd;
+
+}
